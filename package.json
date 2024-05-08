@@ -1,0 +1,24 @@
+{
+  "name": "select-bet-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.9.0",
+    "prisma": "^5.13.0",
+    "prisma-erd-generator": "^1.11.2",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@prisma/client": "^5.13.0",
+    "fastify": "^4.27.0"
+  }
+}
